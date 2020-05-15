@@ -1,0 +1,13 @@
+{
+  "name": "sample-app",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "local": "NODE_ENV=local node localRun.js",
+    "create-package": "zip -r ./app.zip ./src/ ./node_modules/ ./lib/"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}
