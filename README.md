@@ -15,3 +15,10 @@ Modify `localRun.js` to simulate AWS events.
     $ npm run create-package
 
 `app.zip` is created, so upload it in AWS Management Console.
+
+## Assumed AWS Lambda environment
+
+- runtime
+  - Node.js 12.x
+- handler
+  - src/index.handler
